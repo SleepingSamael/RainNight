@@ -18,7 +18,7 @@ $(function () {
         var grd = ctx.createLinearGradient(x, y, x + Inclination, y + len);
         //grd.addColorStop(0, "rgba(0,0,0,0)");
         //grd.addColorStop(0.5, "rgba(105,105,105,1)");
-        grd.addColorStop(1, "rgba(255,255,255,5)");
+        grd.addColorStop(1, "rgba(255,255,255,0.36)");
         ctx.strokeStyle = grd;
 
         ctx.beginPath();

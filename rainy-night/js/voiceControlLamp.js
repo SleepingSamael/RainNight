@@ -100,7 +100,7 @@ function getRandomArr(len,minNum,maxNum){
     return arr;
 }
 
-function lights_up(rate_of_lighting) {
+function lights_up(rate_of_lighting,maxDelay) {
     let num = Math.floor(83 * rate_of_lighting);
     let id_array = getRandomArr(num,1,83)
     for(j = 0,len=id_array.length; j < len; j++) {
@@ -108,11 +108,11 @@ function lights_up(rate_of_lighting) {
         let lighting_window;
         lighting_window = window_dict["window" + id]
         if (!$(lighting_window).hasClass("light_on")){
-            let time_dlay = randomRange(500,1000)
+            let time_dlay = randomRange(1000,maxDelay)
             setTimeout(function () {
                 $(lighting_window).addClass("light_on");
             }, time_dlay);
-            setTimeout( function(){ $(lighting_window).removeClass("light_on"); } ,10000 + time_dlay);
+            setTimeout( function(){ $(lighting_window).removeClass("light_on"); } ,20000 + time_dlay);
         }
     }
 }
