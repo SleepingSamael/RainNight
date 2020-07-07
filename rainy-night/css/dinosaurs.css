@@ -1,0 +1,51 @@
+
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.dinosaurs {
+    position: absolute;
+    border: 1px dashed #efc043;
+    bottom: 0;
+    width: 6vw;
+    height: 8vw;
+    z-index: 20;
+    visibility: hidden;
+}
+
+.diplodocus {
+    left: 3vw;
+}
+
+.pterosaur{
+    left: 10vw;
+}
+
+.egg{
+    position: absolute;
+    border: 1px dashed #efc043;
+    bottom: 0;
+    width: 6vw;
+    height: 8vw;
+    z-index: 20;
+    visibility: hidden;
+    left: 17vw;
+}
+
+.can-never-be-t-rex{
+    left: 24vw;
+
+}
+
+.triceratops{
+    left: 32vw;
+}
+
