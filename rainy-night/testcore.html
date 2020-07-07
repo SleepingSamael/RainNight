@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>TEST</title>
+</head>
+
+<body>
+<script src='js/jquery.min.js'></script>
+<script type="text/javascript">
+    $(function () {
+        var div;
+        if (IsPC()) {
+            div = document.getElementById("body_div")
+            div.style.webkitTransform = 'rotate(90deg)';
+            div.style.mozTransform = 'rotate(90deg)';
+            div.style.msTransform = 'rotate(90deg)';
+            div.style.oTransform = 'rotate(90deg)';
+            div.style.transform = 'rotate(90deg)';
+        }
+
+    });
+    function IsPC() {
+        var userAgentInfo = navigator.userAgent;
+        alert(userAgentInfo);
+        var Agents = ["Android", "iPhone","SymbianOS", "Windows Phone", "iPod"];
+        var flag = true;
+        for (var v = 0; v < Agents.length; v++) {
+            if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                flag = false;
+                break;
+            }
+        }
+        if(window.screen.width>=768){
+            flag = true;
+        }
+        return flag;
+    }
+</script>
+</body>
+
+</html>
