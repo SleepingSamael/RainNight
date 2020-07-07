@@ -5,201 +5,231 @@
     <title>DEMO</title>
 
 
-
     <link rel='stylesheet' href='css/bootstrap.min.css'>
 
     <link rel="stylesheet" href="css/style.css">
 
-    <link rel="stylesheet" href = "css/star.css">
+    <link rel="stylesheet" href="css/star.css">
 
-    <link rel="stylesheet" href = "css/windows.css">
+    <link rel="stylesheet" href="css/windows.css">
 
     <link rel="stylesheet" href="css/dinosaurs.css">
 
 </head>
 
-<body>
-<script src='js/jquery.min.js'></script>
-<script src="js/rainDrop.js"></script>
-<script src="js/voiceControlLamp.js"></script>
-<script src="js/thunder.js"></script>
+<body style="overflow: hidden;">
+<div id="body_div">
+    <script src='js/jquery.min.js'></script>
+    <script type="text/javascript">
+        $(function () {
+            var div;
+            if (!IsPC()) {
+                div = document.getElementById("body_div")
+                div.style.webkitTransform = 'rotate(90deg)';
+                div.style.mozTransform = 'rotate(90deg)';
+                div.style.msTransform = 'rotate(90deg)';
+                div.style.oTransform = 'rotate(90deg)';
+                div.style.transform = 'rotate(90deg)';
+            }
 
-<body>
-<div class="switch-wrap">
-    2020-06-27<br><span>- stop the rain -</span>
-    <div id="switch">
-        <div id="circle"></div>
-    </div>
-</div>
+        });
+        function IsPC() {
+            var userAgentInfo = navigator.userAgent;
+            var Agents = ["Android", "iPhone","SymbianOS", "Windows Phone", "iPod"];
+            var flag = true;
+            for (var v = 0; v < Agents.length; v++) {
+                if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                    flag = false;
+                    break;
+                }
+            }
+            if(window.screen.width>=768){
+                flag = true;
+            }
+            return flag;
+        }
+    </script>
+    <script src="js/rainDrop.js"></script>
+    <script src="js/voiceControlLamp.js"></script>
+    <script src="js/thunder.js"></script>
 
-
-<div class="main-wrapper">
-
-    <div class="building-1"></div>
-    <div class="building-2"></div>
-    <div class="building-3"></div>
-    <div class="building-4"></div>
-
-
-    <!--------------------WINDOWS---------------------------->
-    <div class="window-box—1">
-        <div class='window small-window-1'></div>
-        <div class='window small-window-2'></div>
-        <div class='window small-window-3'></div>
-        <div class='window small-window-4'></div>
-        <div class='window small-window-5'></div>
-        <div class='window small-window-6'></div>
-        <div class='window small-window-7'></div>
-        <div class='window small-window-8'></div>
-        <div class='window small-window-9'></div>
-        <div class='window small-window-10'></div>
-        <div class='window small-window-11'></div>
-        <div class='window small-window-12'></div>
-        <div class='window small-window-13'></div>
-
-        <div class='window long-window long-window-1'></div>
-        <div class='window long-window long-window-2'></div>
-        <div class='window long-window long-window-3'></div>
-        <div class='window long-window long-window-4'></div>
-        <div class='window long-window long-window-5'></div>
-        <div class='window long-window long-window-6'></div>
-        <div class='window long-window long-window-7'></div>
-        <div class='window long-window long-window-8'></div>
-        <div class='window long-window long-window-9'></div>
-        <div class='window long-window long-window-10'></div>
-        <div class='window long-window long-window-11'></div>
-        <div class='window long-window long-window-12'></div>
-        <div class='window long-window long-window-13'></div>
-    </div>
-    <div class="window-box-2">
-        <div class='window box-2-small-window-left-1'></div>
-        <div class='window box-2-small-window-left-2'></div>
-        <div class='window box-2-small-window-left-3'></div>
-        <div class='window box-2-small-window-left-4'></div>
-        <div class='window box-2-small-window-left-5'></div>
-        <div class='window box-2-small-window-left-6'></div>
-        <div class='window box-2-small-window-left-7'></div>
-        <div class='window box-2-small-window-left-8'></div>
-        <div class='window box-2-small-window-left-9'></div>
-        <div class='window box-2-small-window-left-10'></div>
-        <div class='window box-2-small-window-left-11'></div>
-        <div class='window box-2-small-window-left-12'></div>
-        <div class='window box-2-small-window-left-13'></div>
-        <div class='window box-2-small-window-left-14'></div>
-        <div class='window box-2-small-window-left-15'></div>
-        <div class='window box-2-small-window-left-16'></div>
-        <div class='window box-2-small-window-left-17'></div>
-        <div class='window box-2-small-window-left-18'></div>
-        <div class='window box-2-small-window-left-19'></div>
-
-        <div class='window box-2-small-window-right-1'></div>
-        <div class='window box-2-small-window-right-2'></div>
-        <div class='window box-2-small-window-right-3'></div>
-        <div class='window box-2-small-window-right-4'></div>
-        <div class='window box-2-small-window-right-5'></div>
-        <div class='window box-2-small-window-right-6'></div>
-        <div class='window box-2-small-window-right-7'></div>
-        <div class='window box-2-small-window-right-8'></div>
-        <div class='window box-2-small-window-right-9'></div>
-        <div class='window box-2-small-window-right-10'></div>
-        <div class='window box-2-small-window-right-11'></div>
-        <div class='window box-2-small-window-right-12'></div>
-        <div class='window box-2-small-window-right-13'></div>
-        <div class='window box-2-small-window-right-14'></div>
-        <div class='window box-2-small-window-right-15'></div>
-        <div class='window box-2-small-window-right-16'></div>
-        <div class='window box-2-small-window-right-17'></div>
-        <div class='window box-2-small-window-right-18'></div>
-        <div class='window box-2-small-window-right-19'></div>
-
-
-        <div class='window long-window box-2-long-window-1'></div>
-        <div class='window long-window box-2-long-window-2'></div>
-        <div class='window long-window box-2-long-window-3'></div>
-        <div class='window long-window box-2-long-window-4'></div>
-        <div class='window long-window box-2-long-window-5'></div>
-        <div class='window long-window box-2-long-window-6'></div>
-        <div class='window long-window box-2-long-window-7'></div>
-        <div class='window long-window box-2-long-window-8'></div>
-        <div class='window long-window box-2-long-window-9'></div>
-        <div class='window long-window box-2-long-window-10'></div>
-        <div class='window long-window box-2-long-window-11'></div>
-        <div class='window long-window box-2-long-window-12'></div>
-        <div class='window long-window box-2-long-window-13'></div>
-        <div class='window long-window box-2-long-window-14'></div>
-        <div class='window long-window box-2-long-window-15'></div>
-        <div class='window long-window box-2-long-window-16'></div>
-        <div class='window long-window box-2-long-window-17'></div>
-        <div class='window long-window box-2-long-window-18'></div>
-        <div class='window long-window box-2-long-window-19'></div>
-
-
-    </div>
-
-    <div class="grass-wrap">
-        <div class="grass">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-
-    <!--
-                                                                                                                 愿为长庚
-                                                                                                                 以卫姮娥
-    -->
-    <div class="star-box">
-        <div class='star twinkle-star-1'></div>
-        <div class='star twinkle-star-2'></div>
-        <div class='star twinkle-star-3'></div>
-        <div class='star twinkle-star-4'></div>
-        <div class='star twinkle-star-5'></div>
-        <div class='star twinkle-star-6'></div>
-        <div class='star twinkle-star-7'></div>
-        <div class='star twinkle-star-8'></div>
-        <div class='star twinkle-star-9'></div>
-    </div>
-    <div class="egg moon"></div>
-
-
-    <div class="cloud-box">
-        <div class="cloud">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+    <body>
+    <div class="switch-wrap">
+        2020-06-27<br><span>- stop the rain -</span>
+        <div id="switch">
+            <div id="circle"></div>
         </div>
     </div>
 
 
-    <!--
+    <div class="main-wrapper">
+
+        <div class="building-1"></div>
+        <div class="building-2"></div>
+        <div class="building-3"></div>
+        <div class="building-4"></div>
 
 
-         HELLO DINOSAURS!
-         NICE TO MEET YOU!
+        <!--------------------WINDOWS---------------------------->
+        <div class="window-box—1">
+            <div class='window small-window-1'></div>
+            <div class='window small-window-2'></div>
+            <div class='window small-window-3'></div>
+            <div class='window small-window-4'></div>
+            <div class='window small-window-5'></div>
+            <div class='window small-window-6'></div>
+            <div class='window small-window-7'></div>
+            <div class='window small-window-8'></div>
+            <div class='window small-window-9'></div>
+            <div class='window small-window-10'></div>
+            <div class='window small-window-11'></div>
+            <div class='window small-window-12'></div>
+            <div class='window small-window-13'></div>
+
+            <div class='window long-window long-window-1'></div>
+            <div class='window long-window long-window-2'></div>
+            <div class='window long-window long-window-3'></div>
+            <div class='window long-window long-window-4'></div>
+            <div class='window long-window long-window-5'></div>
+            <div class='window long-window long-window-6'></div>
+            <div class='window long-window long-window-7'></div>
+            <div class='window long-window long-window-8'></div>
+            <div class='window long-window long-window-9'></div>
+            <div class='window long-window long-window-10'></div>
+            <div class='window long-window long-window-11'></div>
+            <div class='window long-window long-window-12'></div>
+            <div class='window long-window long-window-13'></div>
+        </div>
+        <div class="window-box-2">
+            <div class='window box-2-small-window-left-1'></div>
+            <div class='window box-2-small-window-left-2'></div>
+            <div class='window box-2-small-window-left-3'></div>
+            <div class='window box-2-small-window-left-4'></div>
+            <div class='window box-2-small-window-left-5'></div>
+            <div class='window box-2-small-window-left-6'></div>
+            <div class='window box-2-small-window-left-7'></div>
+            <div class='window box-2-small-window-left-8'></div>
+            <div class='window box-2-small-window-left-9'></div>
+            <div class='window box-2-small-window-left-10'></div>
+            <div class='window box-2-small-window-left-11'></div>
+            <div class='window box-2-small-window-left-12'></div>
+            <div class='window box-2-small-window-left-13'></div>
+            <div class='window box-2-small-window-left-14'></div>
+            <div class='window box-2-small-window-left-15'></div>
+            <div class='window box-2-small-window-left-16'></div>
+            <div class='window box-2-small-window-left-17'></div>
+            <div class='window box-2-small-window-left-18'></div>
+            <div class='window box-2-small-window-left-19'></div>
+
+            <div class='window box-2-small-window-right-1'></div>
+            <div class='window box-2-small-window-right-2'></div>
+            <div class='window box-2-small-window-right-3'></div>
+            <div class='window box-2-small-window-right-4'></div>
+            <div class='window box-2-small-window-right-5'></div>
+            <div class='window box-2-small-window-right-6'></div>
+            <div class='window box-2-small-window-right-7'></div>
+            <div class='window box-2-small-window-right-8'></div>
+            <div class='window box-2-small-window-right-9'></div>
+            <div class='window box-2-small-window-right-10'></div>
+            <div class='window box-2-small-window-right-11'></div>
+            <div class='window box-2-small-window-right-12'></div>
+            <div class='window box-2-small-window-right-13'></div>
+            <div class='window box-2-small-window-right-14'></div>
+            <div class='window box-2-small-window-right-15'></div>
+            <div class='window box-2-small-window-right-16'></div>
+            <div class='window box-2-small-window-right-17'></div>
+            <div class='window box-2-small-window-right-18'></div>
+            <div class='window box-2-small-window-right-19'></div>
 
 
-    -->
-    <div class="dinosaurs diplodocus"></div>
-    <div class="dinosaurs pterosaur"></div>
-    <div class="egg"></div>
-    <div class="dinosaurs can-never-be-t-rex"></div>
-    <div class="dinosaurs triceratops"></div>
+            <div class='window long-window box-2-long-window-1'></div>
+            <div class='window long-window box-2-long-window-2'></div>
+            <div class='window long-window box-2-long-window-3'></div>
+            <div class='window long-window box-2-long-window-4'></div>
+            <div class='window long-window box-2-long-window-5'></div>
+            <div class='window long-window box-2-long-window-6'></div>
+            <div class='window long-window box-2-long-window-7'></div>
+            <div class='window long-window box-2-long-window-8'></div>
+            <div class='window long-window box-2-long-window-9'></div>
+            <div class='window long-window box-2-long-window-10'></div>
+            <div class='window long-window box-2-long-window-11'></div>
+            <div class='window long-window box-2-long-window-12'></div>
+            <div class='window long-window box-2-long-window-13'></div>
+            <div class='window long-window box-2-long-window-14'></div>
+            <div class='window long-window box-2-long-window-15'></div>
+            <div class='window long-window box-2-long-window-16'></div>
+            <div class='window long-window box-2-long-window-17'></div>
+            <div class='window long-window box-2-long-window-18'></div>
+            <div class='window long-window box-2-long-window-19'></div>
 
+
+        </div>
+
+        <div class="grass-wrap">
+            <div class="grass">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <!--
+                                                                                                                     愿为长庚
+                                                                                                                     以卫姮娥
+        -->
+        <div class="star-box">
+            <div class='star twinkle-star-1'></div>
+            <div class='star twinkle-star-2'></div>
+            <div class='star twinkle-star-3'></div>
+            <div class='star twinkle-star-4'></div>
+            <div class='star twinkle-star-5'></div>
+            <div class='star twinkle-star-6'></div>
+            <div class='star twinkle-star-7'></div>
+            <div class='star twinkle-star-8'></div>
+            <div class='star twinkle-star-9'></div>
+        </div>
+        <div class="egg moon"></div>
+
+
+        <div class="cloud-box">
+            <div class="cloud">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+
+        <!--
+
+
+             HELLO DINOSAURS!
+             NICE TO MEET YOU!
+
+
+        -->
+        <div class="dinosaurs diplodocus"></div>
+        <div class="dinosaurs pterosaur"></div>
+        <div class="egg"></div>
+        <div class="dinosaurs can-never-be-t-rex"></div>
+        <div class="dinosaurs triceratops"></div>
+
+    </div>
+
+
+    </body>
+    <script type="text/javascript">
+
+    </script>
+    <script src='js/jquery.min.js'></script>
+
+
+    <script src="js/index.js"></script>
+
+    <canvas id="rain">不支持canvas</canvas>
 </div>
-
-
-</body>
-<script type="text/javascript">
-
-</script>
-<script src='js/jquery.min.js'></script>
-
-
-<script src="js/index.js"></script>
-
-<canvas id="rain">不支持canvas</canvas>
 </body>
 
 </html>

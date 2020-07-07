@@ -1,10 +1,11 @@
 $(function () {
     var W = $(window).width() ,
-        H = $(window).width() ,
+        H = $(window).height(),
         Inclination = -5, len = 60, count = 800;
     var canvas = document.getElementById("rain");
-    canvas.width = W;
-    canvas.height = H;
+    var L = Math.max(W,H)
+    canvas.width = L;
+    canvas.height = L;
     var ctx = canvas.getContext('2d');
 
     setInterval(clearCanvas,100);
@@ -18,7 +19,7 @@ $(function () {
         var grd = ctx.createLinearGradient(x, y, x + Inclination, y + len);
         //grd.addColorStop(0, "rgba(0,0,0,0)");
         //grd.addColorStop(0.5, "rgba(105,105,105,1)");
-        grd.addColorStop(1, "rgba(255,255,255,0.36)");
+        grd.addColorStop(1, "rgba(255,255,255,0.29)");
         ctx.strokeStyle = grd;
 
         ctx.beginPath();

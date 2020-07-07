@@ -24,3 +24,5 @@ $(".cloud").on('click', function () {
 			$("body").removeClass("off-cloud")
 		}
 	});
+
+

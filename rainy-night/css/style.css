@@ -1,52 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
 
-@media screen and (orientation: portrait) {
-	html{
-		width : 100vmin;
-		height : 100vmax;
-	}
-	body{
-		width : 100vmin;
-		height : 100vmax;
-	}
-	#gyroContain{
-		width : 100vmax;
-		height : 100vmin;
-		transform-origin: top left;
-		transform: rotate(90deg) translate(0,-100vmin);
-	}
-}
-@media screen and (orientation: landscape) {
-	html{
-		width : 100vmax;
-		height : 100vmin;
-	}
-	body{
-		width : 100vmax;
-		height : 100vmin;
-	}
-	#gyroContain{
-		width : 100vmax;
-		height : 100vmin;
-	}
-}
-
 body{
 	width: 100%;
 	display: inline;
-	overflow-x: hidden;
+	overflow: hidden;
 	background: #696969;
 	font-family: 'Poppins', sans-serif;
 	z-index: 0;
 
 }
 canvas {
-	position: absolute;
 	z-index: 10;
 	top: 0;
 	left: 0;
-	opacity: 0.5;
+	opacity: 0.3;
+	position: absolute;
+	margin: 0 auto;
 }
+
 
 .switch-wrap {
 	z-index: 11;
