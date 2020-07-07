@@ -11,18 +11,18 @@ body {
 }
 .window-box—1 {
     position: absolute;
-    width: 11vw;
-    height: 35vw;
+    width: 11vmax;
+    height: 35vmax;
     bottom: 0;
-    right: 6vw;
+    right: 6vmax;
     z-index: 4;
 }
 .window-box-2{
     position: absolute;
-    width: 13vw;
-    height: 27vw;
+    width: 13vmax;
+    height: 27vmax;
     bottom: 0;
-    right: 25vw;
+    right: 25vmax;
     z-index: 4;
 
 }
@@ -46,128 +46,128 @@ body {
 }
 
 .small-window-1{
-    width: 1.2vw;
-    height: 1.5vw;
-    left: 3vw;
-    top: 3vw;
+    width: 1.2vmax;
+    height: 1.5vmax;
+    left: 3vmax;
+    top: 3vmax;
     
 }
-.small-window-2 { width: 1.2vw;height: 1.5vw;left: 3vw;top: 5.5vw; }
-.small-window-3 { width: 1.2vw;height: 1.5vw;left: 3vw;top: 8.0vw; }
-.small-window-4 { width: 1.2vw;height: 1.5vw;left: 3vw;top: 10.5vw; }
-.small-window-5 { width: 1.2vw;height: 1.5vw;left: 3vw;top: 13.0vw; }
-.small-window-6 { width: 1.2vw;height: 1.5vw;left: 3vw;top: 15.5vw; }
-.small-window-7 { width: 1.2vw;height: 1.5vw;left: 3vw;top: 18.0vw;
+.small-window-2 { width: 1.2vmax;height: 1.5vmax;left: 3vmax;top: 5.5vmax; }
+.small-window-3 { width: 1.2vmax;height: 1.5vmax;left: 3vmax;top: 8.0vmax; }
+.small-window-4 { width: 1.2vmax;height: 1.5vmax;left: 3vmax;top: 10.5vmax; }
+.small-window-5 { width: 1.2vmax;height: 1.5vmax;left: 3vmax;top: 13.0vmax; }
+.small-window-6 { width: 1.2vmax;height: 1.5vmax;left: 3vmax;top: 15.5vmax; }
+.small-window-7 { width: 1.2vmax;height: 1.5vmax;left: 3vmax;top: 18.0vmax;
     -webkit-animation: glimmer 0.5s alternate infinite;
     animation:  glimmer 0.5s alternate infinite;
     position: absolute;
     border: 2px solid #000;
     -webkit-filter: blur(1px);
     background: #ffd0a6}
-.small-window-8 { width: 1.2vw;height: 1.5vw;left: 3vw;top: 20.5vw; }
-.small-window-9 { width: 1.2vw;height: 1.5vw;left: 3vw;top: 23.0vw; }
-.small-window-10 { width: 1.2vw;height: 1.5vw;left: 3vw;top: 25.5vw; }
-.small-window-11 { width: 1.2vw;height: 1.5vw;left: 3vw;top: 28.0vw; }
-.small-window-12 { width: 1.2vw;height: 1.5vw;left: 3vw;top: 30.5vw; }
-.small-window-13 { width: 1.2vw;height: 1.5vw;left: 3vw;top: 33.0vw; }
+.small-window-8 { width: 1.2vmax;height: 1.5vmax;left: 3vmax;top: 20.5vmax; }
+.small-window-9 { width: 1.2vmax;height: 1.5vmax;left: 3vmax;top: 23.0vmax; }
+.small-window-10 { width: 1.2vmax;height: 1.5vmax;left: 3vmax;top: 25.5vmax; }
+.small-window-11 { width: 1.2vmax;height: 1.5vmax;left: 3vmax;top: 28.0vmax; }
+.small-window-12 { width: 1.2vmax;height: 1.5vmax;left: 3vmax;top: 30.5vmax; }
+.small-window-13 { width: 1.2vmax;height: 1.5vmax;left: 3vmax;top: 33.0vmax; }
 
 .long-window-1{
-    width: 6vw;
-    height: 2vw;
-    left: 6vw;
-    top: 3.1vw;
+    width: 6vmax;
+    height: 2vmax;
+    left: 6vmax;
+    top: 3.1vmax;
     
 }
-.long-window-2{width: 6vw;height: 2vw;left: 6vw;top: 5.6vw;}
-.long-window-3{width: 6vw;height: 2vw;left: 6vw;top: 8.1vw;}
-.long-window-4{width: 6vw;height: 2vw;left: 6vw;top: 10.6vw;}
-.long-window-5{width: 6vw;height: 2vw;left: 6vw;top: 13.1vw;}
-.long-window-6{width: 6vw;height: 2vw;left: 6vw;top: 15.6vw;}
-.long-window-7{width: 6vw;height: 2vw;left: 6vw;top: 18.1vw;}
-.long-window-8{width: 6vw;height: 2vw;left: 6vw;top: 20.6vw;}
-.long-window-9{width: 6vw;height: 2vw;left: 6vw;top: 23.1vw;}
-.long-window-10{width: 6vw;height: 2vw;left: 6vw;top: 25.6vw;}
-.long-window-11{width: 6vw;height: 2vw;left: 6vw;top: 28.1vw;}
-.long-window-12{width: 6vw;height: 2vw;left: 6vw;top: 30.6vw;}
-.long-window-13{width: 6vw;height: 2vw;left: 6vw;top: 33.1vw;}
+.long-window-2{width: 6vmax;height: 2vmax;left: 6vmax;top: 5.6vmax;}
+.long-window-3{width: 6vmax;height: 2vmax;left: 6vmax;top: 8.1vmax;}
+.long-window-4{width: 6vmax;height: 2vmax;left: 6vmax;top: 10.6vmax;}
+.long-window-5{width: 6vmax;height: 2vmax;left: 6vmax;top: 13.1vmax;}
+.long-window-6{width: 6vmax;height: 2vmax;left: 6vmax;top: 15.6vmax;}
+.long-window-7{width: 6vmax;height: 2vmax;left: 6vmax;top: 18.1vmax;}
+.long-window-8{width: 6vmax;height: 2vmax;left: 6vmax;top: 20.6vmax;}
+.long-window-9{width: 6vmax;height: 2vmax;left: 6vmax;top: 23.1vmax;}
+.long-window-10{width: 6vmax;height: 2vmax;left: 6vmax;top: 25.6vmax;}
+.long-window-11{width: 6vmax;height: 2vmax;left: 6vmax;top: 28.1vmax;}
+.long-window-12{width: 6vmax;height: 2vmax;left: 6vmax;top: 30.6vmax;}
+.long-window-13{width: 6vmax;height: 2vmax;left: 6vmax;top: 33.1vmax;}
 
 
 .box-2-small-window-left-1{
-    width: 0.8vw;
-    height: 1vw;
-    left: 2.3vw;
-    top: 1.5vw;
+    width: 0.8vmax;
+    height: 1vmax;
+    left: 2.3vmax;
+    top: 1.5vmax;
     background: #ffd0a6;
     -webkit-animation: flicker 5s alternate infinite;
     animation:  flicker 5s alternate infinite
 }
-.box-2-small-window-left-2{width: 0.8vw;height: 1vw;left: 2.3vw;top: 2.9vw;}
-.box-2-small-window-left-3{width: 0.8vw;height: 1vw;left: 2.3vw;top: 4.3vw;}
-.box-2-small-window-left-4{width: 0.8vw;height: 1vw;left: 2.3vw;top: 5.699999999999999vw;}
-.box-2-small-window-left-5{width: 0.8vw;height: 1vw;left: 2.3vw;top: 7.1vw;}
-.box-2-small-window-left-6{width: 0.8vw;height: 1vw;left: 2.3vw;top: 8.5vw;}
-.box-2-small-window-left-7{width: 0.8vw;height: 1vw;left: 2.3vw;top: 9.899999999999999vw;}
-.box-2-small-window-left-8{width: 0.8vw;height: 1vw;left: 2.3vw;top: 11.299999999999999vw;}
-.box-2-small-window-left-9{width: 0.8vw;height: 1vw;left: 2.3vw;top: 12.7vw;}
-.box-2-small-window-left-10{width: 0.8vw;height: 1vw;left: 2.3vw;top: 14.1vw;}
-.box-2-small-window-left-11{width: 0.8vw;height: 1vw;left: 2.3vw;top: 15.5vw;}
-.box-2-small-window-left-12{width: 0.8vw;height: 1vw;left: 2.3vw;top: 16.9vw;}
-.box-2-small-window-left-13{width: 0.8vw;height: 1vw;left: 2.3vw;top: 18.299999999999997vw;}
-.box-2-small-window-left-14{width: 0.8vw;height: 1vw;left: 2.3vw;top: 19.7vw;}
-.box-2-small-window-left-15{width: 0.8vw;height: 1vw;left: 2.3vw;top: 21.099999999999998vw;}
-.box-2-small-window-left-16{width: 0.8vw;height: 1vw;left: 2.3vw;top: 22.5vw;}
-.box-2-small-window-left-17{width: 0.8vw;height: 1vw;left: 2.3vw;top: 23.9vw;}
-.box-2-small-window-left-18{width: 0.8vw;height: 1vw;left: 2.3vw;top: 25.299999999999997vw;}
-.box-2-small-window-left-19{width: 0.8vw;height: 1vw;left: 2.3vw;top: 26.7vw;}
+.box-2-small-window-left-2{width: 0.8vmax;height: 1vmax;left: 2.3vmax;top: 2.9vmax;}
+.box-2-small-window-left-3{width: 0.8vmax;height: 1vmax;left: 2.3vmax;top: 4.3vmax;}
+.box-2-small-window-left-4{width: 0.8vmax;height: 1vmax;left: 2.3vmax;top: 5.699999999999999vmax;}
+.box-2-small-window-left-5{width: 0.8vmax;height: 1vmax;left: 2.3vmax;top: 7.1vmax;}
+.box-2-small-window-left-6{width: 0.8vmax;height: 1vmax;left: 2.3vmax;top: 8.5vmax;}
+.box-2-small-window-left-7{width: 0.8vmax;height: 1vmax;left: 2.3vmax;top: 9.899999999999999vmax;}
+.box-2-small-window-left-8{width: 0.8vmax;height: 1vmax;left: 2.3vmax;top: 11.299999999999999vmax;}
+.box-2-small-window-left-9{width: 0.8vmax;height: 1vmax;left: 2.3vmax;top: 12.7vmax;}
+.box-2-small-window-left-10{width: 0.8vmax;height: 1vmax;left: 2.3vmax;top: 14.1vmax;}
+.box-2-small-window-left-11{width: 0.8vmax;height: 1vmax;left: 2.3vmax;top: 15.5vmax;}
+.box-2-small-window-left-12{width: 0.8vmax;height: 1vmax;left: 2.3vmax;top: 16.9vmax;}
+.box-2-small-window-left-13{width: 0.8vmax;height: 1vmax;left: 2.3vmax;top: 18.299999999999997vmax;}
+.box-2-small-window-left-14{width: 0.8vmax;height: 1vmax;left: 2.3vmax;top: 19.7vmax;}
+.box-2-small-window-left-15{width: 0.8vmax;height: 1vmax;left: 2.3vmax;top: 21.099999999999998vmax;}
+.box-2-small-window-left-16{width: 0.8vmax;height: 1vmax;left: 2.3vmax;top: 22.5vmax;}
+.box-2-small-window-left-17{width: 0.8vmax;height: 1vmax;left: 2.3vmax;top: 23.9vmax;}
+.box-2-small-window-left-18{width: 0.8vmax;height: 1vmax;left: 2.3vmax;top: 25.299999999999997vmax;}
+.box-2-small-window-left-19{width: 0.8vmax;height: 1vmax;left: 2.3vmax;top: 26.7vmax;}
 
 
 
 .box-2-small-window-right-1{
-    width: 0.8vw;
-    height: 1vw;
-    right: 2.3vw;
-    top: 1.5vw;
+    width: 0.8vmax;
+    height: 1vmax;
+    right: 2.3vmax;
+    top: 1.5vmax;
     
 }
-.box-2-small-window-right-2{width: 0.8vw;height: 1vw;right: 2.3vw;top: 2.9vw;}
-.box-2-small-window-right-3{width: 0.8vw;height: 1vw;right: 2.3vw;top: 4.3vw;}
-.box-2-small-window-right-4{width: 0.8vw;height: 1vw;right: 2.3vw;top: 5.699999999999999vw;}
-.box-2-small-window-right-5{width: 0.8vw;height: 1vw;right: 2.3vw;top: 7.1vw;}
-.box-2-small-window-right-6{width: 0.8vw;height: 1vw;right: 2.3vw;top: 8.5vw;}
-.box-2-small-window-right-7{width: 0.8vw;height: 1vw;right: 2.3vw;top: 9.899999999999999vw;}
-.box-2-small-window-right-8{width: 0.8vw;height: 1vw;right: 2.3vw;top: 11.299999999999999vw;}
-.box-2-small-window-right-9{width: 0.8vw;height: 1vw;right: 2.3vw;top: 12.7vw;}
-.box-2-small-window-right-10{width: 0.8vw;height: 1vw;right: 2.3vw;top: 14.1vw;}
-.box-2-small-window-right-11{width: 0.8vw;height: 1vw;right: 2.3vw;top: 15.5vw;}
-.box-2-small-window-right-12{width: 0.8vw;height: 1vw;right: 2.3vw;top: 16.9vw;}
-.box-2-small-window-right-13{width: 0.8vw;height: 1vw;right: 2.3vw;top: 18.299999999999997vw;}
-.box-2-small-window-right-14{width: 0.8vw;height: 1vw;right: 2.3vw;top: 19.7vw;}
-.box-2-small-window-right-15{width: 0.8vw;height: 1vw;right: 2.3vw;top: 21.099999999999998vw;}
-.box-2-small-window-right-16{width: 0.8vw;height: 1vw;right: 2.3vw;top: 22.5vw;}
-.box-2-small-window-right-17{width: 0.8vw;height: 1vw;right: 2.3vw;top: 23.9vw;}
-.box-2-small-window-right-18{width: 0.8vw;height: 1vw;right: 2.3vw;top: 25.299999999999997vw;}
-.box-2-small-window-right-19{width: 0.8vw;height: 1vw;right: 2.3vw;top: 26.7vw;}
+.box-2-small-window-right-2{width: 0.8vmax;height: 1vmax;right: 2.3vmax;top: 2.9vmax;}
+.box-2-small-window-right-3{width: 0.8vmax;height: 1vmax;right: 2.3vmax;top: 4.3vmax;}
+.box-2-small-window-right-4{width: 0.8vmax;height: 1vmax;right: 2.3vmax;top: 5.699999999999999vmax;}
+.box-2-small-window-right-5{width: 0.8vmax;height: 1vmax;right: 2.3vmax;top: 7.1vmax;}
+.box-2-small-window-right-6{width: 0.8vmax;height: 1vmax;right: 2.3vmax;top: 8.5vmax;}
+.box-2-small-window-right-7{width: 0.8vmax;height: 1vmax;right: 2.3vmax;top: 9.899999999999999vmax;}
+.box-2-small-window-right-8{width: 0.8vmax;height: 1vmax;right: 2.3vmax;top: 11.299999999999999vmax;}
+.box-2-small-window-right-9{width: 0.8vmax;height: 1vmax;right: 2.3vmax;top: 12.7vmax;}
+.box-2-small-window-right-10{width: 0.8vmax;height: 1vmax;right: 2.3vmax;top: 14.1vmax;}
+.box-2-small-window-right-11{width: 0.8vmax;height: 1vmax;right: 2.3vmax;top: 15.5vmax;}
+.box-2-small-window-right-12{width: 0.8vmax;height: 1vmax;right: 2.3vmax;top: 16.9vmax;}
+.box-2-small-window-right-13{width: 0.8vmax;height: 1vmax;right: 2.3vmax;top: 18.299999999999997vmax;}
+.box-2-small-window-right-14{width: 0.8vmax;height: 1vmax;right: 2.3vmax;top: 19.7vmax;}
+.box-2-small-window-right-15{width: 0.8vmax;height: 1vmax;right: 2.3vmax;top: 21.099999999999998vmax;}
+.box-2-small-window-right-16{width: 0.8vmax;height: 1vmax;right: 2.3vmax;top: 22.5vmax;}
+.box-2-small-window-right-17{width: 0.8vmax;height: 1vmax;right: 2.3vmax;top: 23.9vmax;}
+.box-2-small-window-right-18{width: 0.8vmax;height: 1vmax;right: 2.3vmax;top: 25.299999999999997vmax;}
+.box-2-small-window-right-19{width: 0.8vmax;height: 1vmax;right: 2.3vmax;top: 26.7vmax;}
 
 
-.box-2-long-window-1{width: 4.2vw;height: 1.2vw;left: 4.4vw;top: 1.6vw;}
-.box-2-long-window-2{width: 4.2vw;height: 1.2vw;left: 4.4vw;top: 3.0vw;}
-.box-2-long-window-3{width: 4.2vw;height: 1.2vw;left: 4.4vw;top: 4.4vw;}
-.box-2-long-window-4{width: 4.2vw;height: 1.2vw;left: 4.4vw;top: 5.799999999999999vw;}
-.box-2-long-window-5{width: 4.2vw;height: 1.2vw;left: 4.4vw;top: 7.199999999999999vw;}
-.box-2-long-window-6{width: 4.2vw;height: 1.2vw;left: 4.4vw;top: 8.6vw;}
-.box-2-long-window-7{width: 4.2vw;height: 1.2vw;left: 4.4vw;top: 9.999999999999998vw;}
-.box-2-long-window-8{width: 4.2vw;height: 1.2vw;left: 4.4vw;top: 11.399999999999999vw;}
-.box-2-long-window-9{width: 4.2vw;height: 1.2vw;left: 4.4vw;top: 12.799999999999999vw;}
-.box-2-long-window-10{width: 4.2vw;height: 1.2vw;left: 4.4vw;top: 14.2vw; }
-.box-2-long-window-11{width: 4.2vw;height: 1.2vw;left: 4.4vw;top: 15.6vw;}
-.box-2-long-window-12{width: 4.2vw;height: 1.2vw;left: 4.4vw;top: 17.0vw;}
-.box-2-long-window-13{width: 4.2vw;height: 1.2vw;left: 4.4vw;top: 18.4vw;}
-.box-2-long-window-14{width: 4.2vw;height: 1.2vw;left: 4.4vw;top: 19.8vw;}
-.box-2-long-window-15{width: 4.2vw;height: 1.2vw;left: 4.4vw;top: 21.2vw;}
-.box-2-long-window-16{width: 4.2vw;height: 1.2vw;left: 4.4vw;top: 22.6vw;}
-.box-2-long-window-17{width: 4.2vw;height: 1.2vw;left: 4.4vw;top: 24.0vw;}
-.box-2-long-window-18{width: 4.2vw;height: 1.2vw;left: 4.4vw;top: 25.4vw;}
-.box-2-long-window-19{width: 4.2vw;height: 1.2vw;left: 4.4vw;top: 26.8vw;}
+.box-2-long-window-1{width: 4.2vmax;height: 1.2vmax;left: 4.4vmax;top: 1.6vmax;}
+.box-2-long-window-2{width: 4.2vmax;height: 1.2vmax;left: 4.4vmax;top: 3.0vmax;}
+.box-2-long-window-3{width: 4.2vmax;height: 1.2vmax;left: 4.4vmax;top: 4.4vmax;}
+.box-2-long-window-4{width: 4.2vmax;height: 1.2vmax;left: 4.4vmax;top: 5.799999999999999vmax;}
+.box-2-long-window-5{width: 4.2vmax;height: 1.2vmax;left: 4.4vmax;top: 7.199999999999999vmax;}
+.box-2-long-window-6{width: 4.2vmax;height: 1.2vmax;left: 4.4vmax;top: 8.6vmax;}
+.box-2-long-window-7{width: 4.2vmax;height: 1.2vmax;left: 4.4vmax;top: 9.999999999999998vmax;}
+.box-2-long-window-8{width: 4.2vmax;height: 1.2vmax;left: 4.4vmax;top: 11.399999999999999vmax;}
+.box-2-long-window-9{width: 4.2vmax;height: 1.2vmax;left: 4.4vmax;top: 12.799999999999999vmax;}
+.box-2-long-window-10{width: 4.2vmax;height: 1.2vmax;left: 4.4vmax;top: 14.2vmax; }
+.box-2-long-window-11{width: 4.2vmax;height: 1.2vmax;left: 4.4vmax;top: 15.6vmax;}
+.box-2-long-window-12{width: 4.2vmax;height: 1.2vmax;left: 4.4vmax;top: 17.0vmax;}
+.box-2-long-window-13{width: 4.2vmax;height: 1.2vmax;left: 4.4vmax;top: 18.4vmax;}
+.box-2-long-window-14{width: 4.2vmax;height: 1.2vmax;left: 4.4vmax;top: 19.8vmax;}
+.box-2-long-window-15{width: 4.2vmax;height: 1.2vmax;left: 4.4vmax;top: 21.2vmax;}
+.box-2-long-window-16{width: 4.2vmax;height: 1.2vmax;left: 4.4vmax;top: 22.6vmax;}
+.box-2-long-window-17{width: 4.2vmax;height: 1.2vmax;left: 4.4vmax;top: 24.0vmax;}
+.box-2-long-window-18{width: 4.2vmax;height: 1.2vmax;left: 4.4vmax;top: 25.4vmax;}
+.box-2-long-window-19{width: 4.2vmax;height: 1.2vmax;left: 4.4vmax;top: 26.8vmax;}
 
 
 

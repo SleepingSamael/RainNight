@@ -12,10 +12,10 @@ body {
 }
 .star-box {
     position: absolute;
-    width: 45vw;
-    height: 10vw;
+    width: 45vmax;
+    height: 10vmax;
     top:0;
-    left: 2vw;
+    left: 2vmax;
     z-index: 50;
     display: none;
 

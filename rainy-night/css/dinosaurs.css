@@ -15,37 +15,37 @@ body {
     position: absolute;
     border: 1px dashed #efc043;
     bottom: 0;
-    width: 6vw;
-    height: 8vw;
+    width: 6vmax;
+    height: 8vmax;
     z-index: 20;
     visibility: hidden;
 }
 
 .diplodocus {
-    left: 3vw;
+    left: 3vmax;
 }
 
 .pterosaur{
-    left: 10vw;
+    left: 10vmax;
 }
 
 .egg{
     position: absolute;
     border: 1px dashed #efc043;
     bottom: 0;
-    width: 6vw;
-    height: 8vw;
+    width: 6vmax;
+    height: 8vmax;
     z-index: 20;
     visibility: hidden;
-    left: 17vw;
+    left: 17vmax;
 }
 
 .can-never-be-t-rex{
-    left: 24vw;
+    left: 24vmax;
 
 }
 
 .triceratops{
-    left: 32vw;
+    left: 32vmax;
 }
 

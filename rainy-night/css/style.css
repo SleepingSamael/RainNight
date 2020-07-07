@@ -75,8 +75,8 @@ canvas {
 	position: relative;
 	margin: 0 auto;
 	text-align: center;
-	width: 61.8vw;
-	height: 38.2vw;
+	width: 61.8vmax;
+	height: 38.2vmax;
 	overflow: hidden;
 	display: block;
 	border: 2px solid #000;
@@ -99,7 +99,7 @@ body.stop-rain .main-wrapper{
 .grass{
     position: absolute;
 	bottom: 0;
-	left: 5vw;
+	left: 5vmax;
 	z-index: 3;
 	transform-origin: center bottom;
 	animation: movegrass 1s linear infinite;
@@ -146,7 +146,7 @@ body.stop-rain .grass{
 	bottom: 0;
 	left: 0;
 	width: 2px;
-	height: 1.2vw;
+	height: 1.2vmax;
 	background-color: #000;
 	z-index: 3;
 	transform: scale(1.1);
@@ -155,9 +155,9 @@ body.stop-rain .grass{
     position: absolute;
 	content: '';
 	bottom: 100%;
-	left: -0.7vw;
-	width: 0.8vw;
-	height: 1.6vw;
+	left: -0.7vmax;
+	width: 0.8vmax;
+	height: 1.6vmax;
 	background-color: #2ecc71 ;
 	border-radius: 50%;
 	border-width: 2px;
@@ -170,8 +170,8 @@ body.stop-rain .grass{
 	content: '';
 	bottom: 100%;
 	left: 0;
-	width: 1vw;
-	height: 2vw;
+	width: 1vmax;
+	height: 2vmax;
 	background-color: #2ecc71 ;
 	border-radius: 50%;
 	border-width: 2px;
@@ -180,20 +180,20 @@ body.stop-rain .grass{
 	transform: skewX(-25deg)
 }
 .grass span:nth-child(2){
-	left: 5vw;
+	left: 5vmax;
 }
 .grass span:nth-child(3){
-	left: 8vw;
+	left: 8vmax;
 }
 .grass span:nth-child(4){
-	left: 15vw;
+	left: 15vmax;
 }
 
 
 .building-1{
 	position: absolute;
-	width: 7vw;
-	height: 38vw;
+	width: 7vmax;
+	height: 38vmax;
 	bottom: 0;
 	right: 0;
 	z-index: 5;
@@ -204,10 +204,10 @@ body.stop-rain .grass{
 }
 .building-2{
 	position: absolute;
-	width: 11vw;
-	height: 35vw;
+	width: 11vmax;
+	height: 35vmax;
 	bottom: 0;
-	right: 6vw;
+	right: 6vmax;
 	z-index: 2;
 	background: #1b1e21;
 	border: 2px solid #000;
@@ -217,10 +217,10 @@ body.stop-rain .grass{
 
 .building-3{
 	position: absolute;
-	width: 9.5vw;
-	height: 30vw;
+	width: 9.5vmax;
+	height: 30vmax;
 	bottom: 0;
-	right: 15vw;
+	right: 15vmax;
 	z-index: 1;
 	background: #212328;
 	border: 2px solid #000;
@@ -230,10 +230,10 @@ body.stop-rain .grass{
 
 .building-4{
 	position: absolute;
-	width: 13vw;
-	height: 28vw;
+	width: 13vmax;
+	height: 28vmax;
 	bottom: 0;
-	right: 25vw;
+	right: 25vmax;
 	z-index: 0;
 	background: #292c31;
 	border: 2px solid #000;
@@ -244,7 +244,7 @@ body.stop-rain .grass{
 .cloud-box{
 	height: 100px;
 	width: 100px;
-	right: 3vw;
+	right: 3vmax;
 	position: absolute;
 	z-index: 10;
 	animation: moveClouds 20s linear  forwards;
@@ -262,7 +262,7 @@ body.stop-rain .grass{
 	height: 50px;
 	width: 50px;
 	right: 0;
-	margin-top: 3vw;
+	margin-top: 3vmax;
 	z-index: 50;
 	-webkit-transition: all 1000ms ease;
 	transition: all 1000ms ease;
@@ -292,7 +292,7 @@ body.off-cloud .cloud-box{
 		transform: translateX(0);
 	}
 	100% {
-		transform: translateX(-40vw);
+		transform: translateX(-40vmax);
 	}
 }
 @keyframes shakeClouds {
