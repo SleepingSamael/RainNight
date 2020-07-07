@@ -3,7 +3,7 @@ $(function () {
         H = $(window).height(),
         Inclination = -5, len = 60, count = 800;
     var canvas = document.getElementById("rain");
-    var L = Math.max(W,H)
+    var L = 2 * Math.max(W,H)
     canvas.width = L;
     canvas.height = L;
     var ctx = canvas.getContext('2d');
